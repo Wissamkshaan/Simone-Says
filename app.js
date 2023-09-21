@@ -184,7 +184,7 @@ function check() {
   if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
     good = false; // player didn't click the correct section
 
-  if (playerOrder.length == 3 && good) { // if player clicked 10 times correctly, then call WINGAME FUNCTION
+  if (playerOrder.length == 10 && good) { // if player clicked 10 times correctly, then call WINGAME FUNCTION
     winGame();
   }
 
